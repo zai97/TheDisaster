@@ -137,7 +137,7 @@ public class Story {
                 + "さあナイフと回復アイテムどちらを選ぶ？▼");
         scan.nextLine();
     }
-    public static void 810(){
+    public static void senpai(){
         System.out.println("……▼");
         scan.nextLine();
         
@@ -285,8 +285,25 @@ public class Story {
 
     }
     public static void stage2After(){
+        System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+        System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+
     }
-    public static void choice2{ 
+    public static void choice2(){ 
     }
     public static void choice3(){
     }
@@ -296,12 +313,12 @@ public class Story {
     }
     public static void security(){
     }
-   　public static void lastBattle(){
+    public static void lastBattle(){
     }
     public static void lastBattleAfter(){
     }
     public static void epilogue(){
     }
-    public static void Special victory(){
+    public static void specialVictory(){
     }
 }

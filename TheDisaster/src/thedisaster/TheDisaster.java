@@ -7,15 +7,15 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- *
- *
+ * メインのファイル。
  */
 public class TheDisaster {
 
     static String DisasterName;
     static Character Disaster;
+    static Grim grimgerde;
     
-    static List<Dungeon> DungeonList = new ArrayList<Dungeon>();
+    static List<Dungeon> dungeonList = new ArrayList<Dungeon>();
     static List<item> itemList = new ArrayList<item>();
     
     static Scanner scan = new Scanner(System.in);
@@ -35,17 +35,19 @@ public class TheDisaster {
         itemList.add(new item("中回復", 20));
         itemList.add(new item("大回復", 30));
         itemList.add(new item("特大回復", 150));
+        
+        grimgerde = new Grim("Grimgerde", 10000);
 
-        DungeonList.add(new Dungeon("チュートリアル", 2, "", "", ""));
-        DungeonList.add(new Dungeon("選択1", 0, "", "", "ナイフ"));
-        DungeonList.add(new Dungeon("810", 0, "", "", "おもちゃのナイフ"));
-        DungeonList.add(new Dungeon("ステージ1", 2, "小", "", ""));
-        DungeonList.add(new Dungeon("SP", 0, "", "中", "魔法のフライパン"));
-        DungeonList.add(new Dungeon("ステージ2", 2, "中", "", "ニワトコの杖"));
-        DungeonList.add(new Dungeon("選択2", 0, "", "大", "マスケット銃"));
-        DungeonList.add(new Dungeon("ステージ3", 4, "特大", "", "水鉄砲"));
-        DungeonList.add(new Dungeon("イージーマス", 0, "", "", ""));
-        DungeonList.add(new Dungeon("ラスボス", 1, "", "", ""));
+        dungeonList.add(new Dungeon("チュートリアル", 2, "", "", ""));
+        dungeonList.add(new Dungeon("選択1", 0, "", "", "ナイフ"));
+        dungeonList.add(new Dungeon("810", 0, "", "", "おもちゃのナイフ"));
+        dungeonList.add(new Dungeon("ステージ1", 2, "小", "", ""));
+        dungeonList.add(new Dungeon("SP", 0, "", "中", "魔法のフライパン"));
+        dungeonList.add(new Dungeon("ステージ2", 2, "中", "", "ニワトコの杖"));
+        dungeonList.add(new Dungeon("選択2", 0, "", "大", "マスケット銃"));
+        dungeonList.add(new Dungeon("ステージ3", 4, "特大", "", "水鉄砲"));
+        dungeonList.add(new Dungeon("イージーマス", 0, "", "", ""));
+        dungeonList.add(new Dungeon("ラスボス", 1, "", "", ""));
 
     }
 
@@ -68,6 +70,10 @@ public class TheDisaster {
             }
         } while (roop);
         Disaster = new Character(DisasterName, 2000, "なし");
+    }
+    
+    public void DisasterGetWepon(){
+    
     }
 
     /**

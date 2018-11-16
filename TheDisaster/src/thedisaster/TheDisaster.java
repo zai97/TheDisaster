@@ -16,7 +16,7 @@ public class TheDisaster {
     static Grim grimgerde;
     
     static List<Dungeon> dungeonList = new ArrayList<Dungeon>();
-    static List<item> itemList = new ArrayList<item>();
+    static List<Item> itemList = new ArrayList<Item>();
     
     static Scanner scan = new Scanner(System.in);
 
@@ -31,10 +31,10 @@ public class TheDisaster {
     }
 
     private static void init() {
-        itemList.add(new item("小回復", 10));
-        itemList.add(new item("中回復", 20));
-        itemList.add(new item("大回復", 30));
-        itemList.add(new item("特大回復", 150));
+        itemList.add(new Item("小回復", 10));
+        itemList.add(new Item("中回復", 20));
+        itemList.add(new Item("大回復", 30));
+        itemList.add(new Item("特大回復", 150));
         
         grimgerde = new Grim("Grimgerde", 10000);
 

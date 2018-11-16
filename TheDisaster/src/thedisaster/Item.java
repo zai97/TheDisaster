@@ -6,7 +6,7 @@ package thedisaster;
  *
  * @author user
  */
-public class item {
+public class Item {
     private String name;
     private int PlusHP;
     private int knife=10;

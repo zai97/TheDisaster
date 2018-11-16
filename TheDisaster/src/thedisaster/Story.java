@@ -222,6 +222,30 @@ public class Story {
         scan.nextLine();
     }
     public static void stage1After(){
+        System.out.println(""
+                + "啖呵を切った割にはあっけないものだな。\n"
+                + "もう終わりか？▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "エクスシア「だとよ…どう思う？…」\n"
+                + "スローネ「ハハ…こいつは向こうで笑い話にしかならないな…」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "エクスシア「まぁ…捨て駒なりに時間は稼げただろ？…」\n"
+                + "スローネ「そうだな…こちとら団体戦だ…目の前の悪魔が此処で失った数秒に…後で泣いてくれることを祈るね…」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "エクスシア「ハッ…違ぇねぇ…」\n"
+                + "次に行くぞ。▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "そろそろ要領は掴んだだろう。\n"
+                + "貴様のやることは何ら変わることはない。▼");
+        scan.nextLine();
     }
     public static void stage2(){
     }

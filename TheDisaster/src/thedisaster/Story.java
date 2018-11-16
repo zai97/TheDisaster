@@ -120,8 +120,28 @@ public class Story {
                 + "次へ進もう。▼");
     }
     public static void choice1(){
+         System.out.println(""
+                + "このダンジョンでは昔ながらのダンジョンみたいに\n"
+                + "武器や回復アイテムが落ちているだろう▼");
+        scan.nextLine();
+        System.out.println(""
+                + "本来はどちらもいただきたいが、封印があるため時間が惜しい片方だけを取ることにしよう。\n"
+                + "どちらを選ぶのかは貴様にゆだねる。▼");
+        scan.nextLine();
+        System.out.println(""
+                + "このダンジョンには他にも武器があるが持てるのは一つだけだ。\n"
+                + "それまでに武器を持っていたら武器を取り換えた時点で捨ててしまう。▼");
+        scan.nextLine();
+        System.out.println(""
+                + "今回の武器はナイフか。\n"
+                + "さあナイフと回復アイテムどちらを選ぶ？▼");
+        scan.nextLine();
     }
     public static void 810(){
+        System.out.println("……▼");
+        scan.nextLine();
+        
+        
     }
     public static void stage1(){
     }

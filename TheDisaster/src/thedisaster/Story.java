@@ -172,6 +172,54 @@ public class Story {
         scan.nextLine();
     }
     public static void stage1(){
+        System.out.println(""
+                + "エクスシア「どうやら抜け駆けは失敗したらしい。」\n"
+                + "スローネ「嗚呼、どちらが先に封印するのか賭けていたのに。この場合どうするよ？」▼");
+        scan.nextLine();
+        System.out.println(""
+                + "エクスシア「知ったことか。引き分けなんて考えてもいない。」\n"
+                + "ほぅ、どうやら世界を救うメサイア様は自信に満ち溢れているな。▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "いや、過信に溺れていると言うべきか？\n"
+                + "エクスシア「それはお互い様だろう？」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "ほぅ？何故そう宣う？\n"
+                + "エクスシア「お前は何分、いや何秒であいつらを殺った？４０か？２０か？」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "スローネ「あいつらを殺ることは蟻を殺すようだったろう？\n"
+                + "容易であり造作もない行為だったろう？\n"
+                + "そしてお前の前に立つ虫けらを同じように屠る気でいる。違うのか？」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "そうだと言ったら？\n"
+                + "どうせ貴様らも同じ道を辿る。▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "エクスシア「その発言が証拠だ。\n"
+                + "生憎、おいそれと死んでしまってはあいつらに、大事な飲み仲間にヴァルハラで顔向けできない。」▼");
+        scan.nextLine();
+        System.out.println(""
+                + "スローネ「お前の大切な時間をこの命の限り奪い、あいつらへの土産話としよう。\n"
+                + "酒の肴にはもってこいだ。」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "エクスシア「掛け金の行方もその時話し合おうじゃないか。」\n"
+                + "スローネ「賛成。」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "来るぞ。\n"
+                + "構えろ!▼");
+        scan.nextLine();
     }
     public static void stage1After(){
     }

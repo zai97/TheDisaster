@@ -248,6 +248,41 @@ public class Story {
         scan.nextLine();
     }
     public static void stage2(){
+        System.out.println(""
+                + "マールート「キヒヒヒヒ！！崩ス者ノ登場サ！」\n"
+                + "ハールート「やぁ、初めまして。災害。」▼");
+        scan.nextLine();
+        System.out.println(""
+                + "初めまして、そしてさようなら。貴様らは私の前に立った。\n"
+                + "それだけの理由で地獄に落ちる。▼");
+        scan.nextLine();
+        System.out.println(""
+                + "マールート「堕チルヨ堕チル深淵ニ、\n"
+                + "名前諸共忘レ去ラレル運命サ！」▼");
+        scan.nextLine();
+
+        System.out.println(""
+                + "ハールート「そう殺戮に急がなくてもいいだろう？\n"
+                + "そんなことは最早分かりきっているんだ。」▼");
+        scan.nextLine();
+
+        System.out.println(""
+                + "そうであるなら一刻も早く物言わぬ屍になれ。\n"
+                + "こうしている時間が惜しい。▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "マールート「自ラ死ニ急グガ有象無象ノ救ワレル道？」\n"
+                + "ハールート「此処で１秒でも時間を費やすことが我らの勝利に近づくんだ。\n"
+                + "そう簡単には心臓を止めない。来るなら来いバケモノが。」▼");
+        scan.nextLine();
+        
+　　　　　　　System.out.println(""
+                + "さっさと終わらせるぞ。\n"
+                + "先程の奴らと同じかそれ以下だ。▼");
+        scan.nextLine();
+
+
     }
     public static void stage2After(){
     }

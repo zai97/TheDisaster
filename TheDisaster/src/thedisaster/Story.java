@@ -141,7 +141,35 @@ public class Story {
         System.out.println("……▼");
         scan.nextLine();
         
+        System.out.println(""
+                + "???「入って、どうぞ」\n"
+                + "なんだこいつは…私を倒そうとしてるようには見えないが…、むしろ歓迎している…？▼");
+        scan.nextLine();
         
+        System.out.println(""
+                + "???「アイスティーしかなかったんだけどいいかな？」\n"
+                + "いや、私はいらない▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "???「まずうちさぁ、武器・・・あんだけど・・・持ってかない？」\n"
+                + "なんだこいつ、さっきから会話が繋がっている気がしない…。▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "RPGのNPCと話している気分だ。\n"
+                + "???「ホラ、見ろよ！見ろよ！ホラ」▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "おもちゃのナイフがある\n"
+                + "どうする？▼");
+        scan.nextLine();
+        
+        System.out.println(""
+                + "家を出た。\n"
+                + "なんだったんだあいつは…?▼");
+        scan.nextLine();
     }
     public static void stage1(){
     }

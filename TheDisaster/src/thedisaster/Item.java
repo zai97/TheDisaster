@@ -11,7 +11,7 @@ public class Item {
     private int PlusHP;
     private int knife=10;
     
-    public item(String n, int h) {
+    public Item(String n, int h) {
         this.name = n;
         this.PlusHP = h;
     }

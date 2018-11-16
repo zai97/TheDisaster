@@ -2,7 +2,6 @@ package thedisaster;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -27,7 +26,7 @@ public class TheDisaster {
         PutDisasterName(); //名前決定
         DamageOverTime(); //HP減少開始
         Story.Tutorial(); //チュートリアル
-        BattleWithMessiah(); //戦闘
+        //BattleWithMessiah(); //制作中
         Story.TutorialBattleAfter(); //チュートリアル戦後
     }
 
@@ -69,84 +68,6 @@ public class TheDisaster {
             }
         } while (roop);
         Disaster = new Character(DisasterName, 2000, "なし");
-    }
-
-    public static void BattleWithMessiah() {
-        int damage;
-
-        System.out.println("メサイアの攻撃!");
-        damage = Damage("ENEMY");
-        Disaster.SetHP(-damage);
-        System.out.println(DisasterName + "に " + damage + " のダメージ!▼");
-        scan.nextLine();
-
-        if (Disaster.getHP() <= 0) {
-            System.out.println("死亡");
-            System.exit(0);
-        }
-
-        System.out.println(DisasterName + "の攻撃!");
-        damage = Damage("DISASTER");
-        System.out.println("メサイアに " + damage + " のダメージ!▼");
-
-        if (damage >= 100) {
-            System.out.println("メサイアは死亡した");
-        }
-        /*
-        System.out.println("グリムゲルデの行動!");
-        String grimAi = GRIMGERDEAI();
-        System.out.print("グリムゲルデは " + grimAi + " を行った!");
-
-        if (grimAi.equals("物理攻撃")) {
-            damage = Damage("GRIMGERDEPhysical");
-        } else if (grimAi.equals("魔法攻撃")) {
-            damage = Damage("GRIMGERDEMagic");
-        } else {
-            System.out.print("▼");
-
-            System.out.println("");
-        }
-        System.out.println("");
-        System.out.print("主人公に " + damage + " のダメージ!▼");
-
-        System.out.println("");
-         */
-    }
-
-    public static int Damage(String move) {
-        Random rand = new Random();
-
-        switch (move) {
-            case "ENEMY":
-                int ENEMYAttack = rand.nextInt(100);
-                return ENEMYAttack;
-
-            case "DISASTER":
-                int DISASTERAttack = rand.nextInt(7999) + 2000;
-                return DISASTERAttack;
-
-            case "GRIMGERDEPhysical":
-                int GRIMGERDEPhysicalAttack = rand.nextInt(100) + 200;
-                return GRIMGERDEPhysicalAttack;
-
-            case "GRIMGERDEMagic":
-                int GRIMGERDEMagicAttack = rand.nextInt(100) + 100;
-                return GRIMGERDEMagicAttack;
-        }
-        return -1;
-    }
-
-    public static String GRIMGERDEAI() {
-        Random rand = new Random();
-        int grimAi = rand.nextInt(99) + 1;
-
-        if (grimAi <= 33) {
-            return "物理攻撃";
-        } else if (grimAi >= 67) {
-            return "物理無効";
-        } else {
-            return "魔法攻撃";
-        }
     }
 
     /**

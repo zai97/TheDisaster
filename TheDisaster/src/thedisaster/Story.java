@@ -286,26 +286,84 @@ public class Story {
     }
     public static void stage2After(){
         System.out.println(""
-                + "\n"
-                + "▼");
+                + "マールート「キヒッ…遊ビハ終ワリ？」\n"
+                + "ハールート「存外儚い人生だったな…」▼");
         scan.nextLine();
         System.out.println(""
-                + "\n"
-                + "▼");
+                + "分かっただろう、貴様らが何人費やそうと結末は変わらないと\n"
+                + "マールート「変ワラナイ…変ワラナイ……世界ガ辿ル結末ハ…」▼");
         scan.nextLine();
 System.out.println(""
-                + "\n"
-                + "▼");
+                + "ハールート「それでも俺らは突破口を探す…。\n"
+                + "何百何千の仲間の屍を踏み超えて進む…。かつて神に挑んだ時のように…。」▼");
         scan.nextLine();
 System.out.println(""
-                + "\n"
-                + "▼");
+                + "マールート「穢キ王ガ…統ベル世界…。\n"
+                + "オマエニ…ハ変エラレル……？」▼");
+        scan.nextLine();
+        
+System.out.println(""
+                + "ハールート「俺たちは…一度負け、神はこの世を統べた…。今回も屍となるとしよう…。\n"
+                + "しかし、お前は…最後まで勝って…いられるのか？楽しみに…しているよ……。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "愚問だったな。私達"+ DisasterName +"には敵などいない。\n"
+                + "先に進むぞ。▼");
         scan.nextLine();
 
     }
     public static void choice2(){ 
+        System.out.println(""
+                + "ここには敵がいないようだな…。\n"
+                + "フライパンが落ちているな。▼");
+        scan.nextLine();
+System.out.println(""
+                + "金属で作られている割には軽いな。\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "武器ではないが、このフライパンで殴れば相応の痛みは与えられることができるだろう。\n"
+                + "しかしフライパンか…。▼");
+        scan.nextLine();
+System.out.println(""
+                + "回復アイテムも落ちているがどちらを取るか…。\n"
+                + "こんな時こそお前の出番だ。▼");
+        scan.nextLine();
+System.out.println(""
+                + "フライパンと回復アイテムどちらを選ぶ？\n"
+                + ""+ DisasterName +"にとって大事だと思う方を選んで欲しい。▼");
+        scan.nextLine();
+System.out.println(""
+                + "どちらを取るかを決めるのはお前だ。\n"
+                + ""+ DisasterName +"はどちらを選ぶ？▼");
+        scan.nextLine();
     }
     public static void choice3(){
+     System.out.println(""
+                + "これはマスケット銃か！\n"
+                + "私がいた時代には無かった武器だ。▼");
+        scan.nextLine();
+System.out.println(""
+                + "なんで知っているのか？だと？具体的な名前は忘れたが、\n"
+                + "黄色いリボン使いの少女(?)が魔法でこれを出していただろう？▼");
+        scan.nextLine();
+System.out.println(""
+                + "このマスケット銃があれば人間であっても猛獣を倒せるだろうな。\n"
+                + "こんなのが量産されでもしたら神や天使も大騒ぎだろうな。▼");
+        scan.nextLine();
+System.out.println(""
+                + "この武器相手ではせっかく召喚した幻獣なんぞすぐに殺されてしまうだろう。\n"
+                + "いやはや恐ろしい時代になったものだ。▼");
+        scan.nextLine();
+   System.out.println(""
+                + "このマスケット銃を拾うか？\n"
+                + "回復アイテムもあるがどうする？▼");
+        scan.nextLine();
+
+        System.out.println(""
+                + ""+ DisasterName +"にとって大事だと思う方を選んで欲しい。\n"
+                + "どちらを取るかを決めるのはお前だ。▼");
+        scan.nextLine();
     }
     public static void stage3(){
     }

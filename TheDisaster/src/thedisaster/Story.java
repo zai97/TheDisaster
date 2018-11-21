@@ -1,12 +1,11 @@
 package thedisaster;
 
-import java.util.Scanner;
 import static thedisaster.TheDisaster.*;
 
 /*
  * Story.java
  * ストーリーの内容がここにまとまっています。
- * @author プログラム:立野, ストーリー:山口
+ * @author 山口
  */
 public class Story {
 
@@ -277,7 +276,7 @@ public class Story {
                 + "そう簡単には心臓を止めない。来るなら来いバケモノが。」▼");
         scan.nextLine();
         
-　　　　　　　System.out.println(""
+        System.out.println(""
                 + "さっさと終わらせるぞ。\n"
                 + "先程の奴らと同じかそれ以下だ。▼");
         scan.nextLine();

@@ -138,7 +138,7 @@ public class Story {
         
 
     }
-    public static void senpai(){
+    public static void specialenpai(){
         System.out.println("……▼");
         scan.nextLine();
         

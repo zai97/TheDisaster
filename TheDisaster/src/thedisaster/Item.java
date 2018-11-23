@@ -7,23 +7,33 @@ package thedisaster;
  * @author user
  */
 public class Item {
-    private String name;
-    private int PlusHP;
-    private int knife=10;
+    private String name; //名前
+    private int value; //値
     
-    public Item(String n, int h) {
-        this.name = n;
-        this.PlusHP = h;
+    /**
+     * コンストラクタ
+     * @param n 名前
+     * @param v 値
+     */
+    public Item(String n, int v) {
+        this.name = n; 
+        this.value = v;
     }
     
-    public int getlow_item(){
-        return PlusHP;
+    /**
+     * アイテムの名前を返すメソッド
+     * @return 名前
+     */
+    public String GetName(){
+        return name;
     }
-    public int getknife(){
-        return knife;   
-    }
-    public void setknife(int knife){
-        this.knife=knife;
+
+    /**
+     * アイテムが保有する値を返すメソッド
+     * @return 
+     */
+    public int GetValue(){
+        return value;
     }
     
 }

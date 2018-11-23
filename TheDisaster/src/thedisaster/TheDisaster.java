@@ -16,7 +16,18 @@ public class TheDisaster {
     static Grim grimgerde;
     
     static List<Dungeon> dungeonList = new ArrayList<Dungeon>();
-    static List<Item> itemList = new ArrayList<Item>();
+    
+    static Item heal_low;
+    static Item heal_medium;
+    static Item heal_high;
+    static Item heal_veryHigh;
+    
+    static Item wepon_knife;
+    static Item wepon_toyKnife;
+    static Item wepon_FryingPanOfMagic;
+    static Item wepon_theElderWand;
+    static Item wepon_muskets;
+    static Item wepon_waterGun;
     
     static Scanner scan = new Scanner(System.in);
 
@@ -35,13 +46,21 @@ public class TheDisaster {
     }
 
     private static void init() {
-        itemList.add(new Item("小回復", 10));
-        itemList.add(new Item("中回復", 20));
-        itemList.add(new Item("大回復", 30));
-        itemList.add(new Item("特大回復", 150));
+        
+        heal_low = new Item("小回復", 10);
+        heal_medium = new Item("中回復", 20);
+        heal_high = new Item("大回復", 30);
+        heal_veryHigh = new Item("特大回復", 150);
         
         grimgerde = new Grim("Grimgerde", 10000);
 
+        wepon_knife = new Item("ナイフ", 10);
+        wepon_toyKnife = new Item("おもちゃのナイフ", 10);
+        wepon_FryingPanOfMagic = new Item("魔法のフライパン", 10);
+        wepon_theElderWand = new Item("ニワトコの杖", 10);
+        wepon_muskets = new Item("マスケット銃", 10);
+        wepon_waterGun= new Item("水鉄砲", 10);
+        
         dungeonList.add(new Dungeon("チュートリアル", 2, "", "", ""));
         dungeonList.add(new Dungeon("選択1", 0, "", "", "ナイフ"));
         dungeonList.add(new Dungeon("810", 0, "", "", "おもちゃのナイフ"));

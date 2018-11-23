@@ -365,16 +365,201 @@ System.out.println(""
         scan.nextLine();
     }
     public static void stage3(){
+        System.out.println(""
+                + "アストライアー「来たぞ。気合入れろよお前ら。」\n"
+                + "ラジエル「ここが正念場ってくらい心得てますよ、頭。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "ヴァーチュース「そして残ったのが俺たちだけってことも。」\n"
+                + "ガルム「昔を思い出しますよ、あの戦いを。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "ようやく終わりが見えてきたな\n"
+                + "さしづめ貴様らを蹴散らせば外に出れるんだろう？▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「当たらずとも遠からず、俺らは最後の人類最後の砦ってところだ。\n"
+                + "生まれ生まれ生まれ生まれて生の初めに暗く、死に死に死に、死んで死の終わりに冥し。");
+        scan.nextLine();
+System.out.println(""
+                + "俺らはかつて神に挑み死に、お前に挑むためにここに立っている。\n"
+                + "輪廻の理からは外れているのかもしれないが");
+        scan.nextLine();
+System.out.println(""
+                + "どうやら俺たちは何のために生き\n"
+                + "死ぬのかは決まっているようだ。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "御託はいい。貴様らは人間ですらない亡霊だ。\n"
+                + "戦うことでしか意味を見出すことのできない");
+        scan.nextLine();
+System.out.println(""
+                + "哀れな幻影(phantom)だ。\n"
+                + "まやかしに過ぎない貴様らに何ができる？▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「できる？俺たちにとっては成否はただの副産物なんだよ。\n"
+                + "大事なのは戦うことであり、それを楽しむことだ。");
+        scan.nextLine();
+System.out.println(""
+                + "そうでもなけりゃ神にもお前にも挑むことなく\n"
+                + "十字架を握ってガタガタ震えながらお祈りしてるだろうよ。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "そうかそうか\n"
+                + "死に場所を求めるというのなら▼");
+        scan.nextLine();
+System.out.println(""
+                + "安息を、休息を、平穏をくれてやろう。\n"
+                + "ここで貴様らの一夜限りの夢を終わらせてやる。▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「夢ねぇ、そいつはいい例えだ。\n"
+                + "どうか１秒でも長く見せてくれよ？災害さんよ。」▼");
+        scan.nextLine();
+
     }
     public static void stage3After(){
+        System.out.println(""
+                + "部下は全員死んだぞ？\n"
+                + "貴様はまだやれるのか？▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「そうしたいもんだが\n"
+                + "生憎…身体が言うことを聞かねぇんだ…。負けだよ…負け。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "あれほどのことを言っていた割には潔いな。\n"
+                + "あれは己を奮い立たせる嘘か？▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「いや…、本当のことさ。\n"
+                + "俺たちは戦うことしかできないろくでなしだ。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "ただ…次の戦場は戦乙女(ヴァルキリー)サマのおかげで決まっていてね…\n"
+                + "次は…そっちに身を投じるだけさ。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "戦乙女？天使や神の名前を持ち\n"
+                + "そいつらに挑んだ貴様が何を言っている？▼");
+        scan.nextLine();
+System.out.println(""
+                + "アストライアー「ハハハ、そう思うだろ？\n"
+                + "神に、喧嘩を売って迎えられるなんておかしな話だよな…？");
+        scan.nextLine();
+System.out.println(""
+                + "今度はあの世で傭兵をやるわけだ…。\n"
+                + "まぁ、せいぜい…お前も楽しみな…。運命を……。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "行くぞ。\n"
+                + "ここからが本番だ。▼");
+        scan.nextLine();
+
     }
     public static void security(){
+        System.out.println(""
+                + "これはなんだ…?\n"
+                + "私の知っている言語ではない…。▼");
+        scan.nextLine();
+System.out.println(""
+                + "貴様ならわかるか？\n"
+                + "私の体力も少なくなってきている。▼");
+        scan.nextLine();
+System.out.println(""
+                + "なるべく早くこのセキュリティを突破して欲しい。\n"
+                + "ここを突破すれば後は奴が言う戦乙女だけだろう。▼");
+        scan.nextLine();
     }
     public static void lastBattle(){
+        System.out.println(""
+                + "戦乙女「ついに私のところまでたどり着いたか、"+ DisasterName +"\n"
+                + "私はこのダンジョンで君を待っていた戦乙女のグリムゲルデという者だ。");
+        scan.nextLine();
+System.out.println(""
+                + "とりあえずお茶でもどうだい？\n"
+                + "ああそうか、君には時間がないんだったな");
+        scan.nextLine();
+System.out.println(""
+                + "私の封印もそろそろ効いてくることだろう。\n"
+                + "あの天使の名を持ったメサイア達はとても頑張ってくれたよ");
+        scan.nextLine();
+System.out.println(""
+                + "死んでいったメサイア達も戦乙女が打倒した災害に殺された\n"
+                + "とあればヴァルハラに連れて行くにはいい理由になる。▼");
+        scan.nextLine();
+System.out.println(""
+                + "私はここで時間を稼げば勝ち。君は私を倒さなくては負け。\n"
+                + "せいぜい足掻いてくれ。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "不思議な光が部屋を満たす。\n"
+                + "黄昏がダンジョンの出口から照らしている。▼");
+        scan.nextLine();
+System.out.println(""
+                + "我々の冒険はついに終わるようだ。\n"
+                + "グリムゲルデ「"+ DisasterName +"、きみに会えて本当によかった。」▼");
+        scan.nextLine();
+System.out.println(""
+                + "戦乙女は二本の剣を構えた。\n"
+                + "刀身が黄昏の光をたたえている。▼");
+        scan.nextLine();
+System.out.println(""
+                + "グリムゲルデ「さようなら」\n"
+                + "これが最後の戦いだ▼");
+        scan.nextLine();
+
     }
     public static void lastBattleAfter(){
+        System.out.println(""
+                + "折れた刀身は決闘前の光を失っていた。\n"
+                + "グリムゲルデ「私の負けだな…");
+        scan.nextLine();
+System.out.println(""
+                + "まあいい、目的は達成できた。\n"
+                + ""+ DisasterName +"、きみはここから外に出るがいい▼");
+        scan.nextLine();
+System.out.println(""
+                + "しかしここは君のいた時代も場所も違う\n"
+                + "君に耐えられるかな？▼");
+        scan.nextLine();
+
     }
     public static void epilogue(){
+        System.out.println(""
+                + "貴様は私をこのダンジョンから出すという決意をしてくれた。\n"
+                + "私だけでは目覚めることすらできず封印されていただろう。▼");
+        scan.nextLine();
+System.out.println(""
+                + "とりあえず、このダンジョンからは出れたのだ。\n"
+                + "この世界は広い、貴様がいなくても▼");
+        scan.nextLine();
+System.out.println(""
+                + "私を観測してくれるものは他にもいるだろう。\n"
+                + "ありがとう。▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "制作スタッフ▼");
+        scan.nextLine();
+System.out.println(""
+                + "C0116127 佐藤瑠星\n"
+                + "C0116168 立野和紀▼");
+        scan.nextLine();
+System.out.println(""
+                + "C0116272 山口雄也\n"
+                + "C0116334 ザイダトゥル アクマル▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "(メッセージを受信しました。)▼");
+        scan.nextLine();
+
     }
     public static void specialVictory(){
     }

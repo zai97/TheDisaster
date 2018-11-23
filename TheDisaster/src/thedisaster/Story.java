@@ -650,6 +650,109 @@ System.out.println(""
                 + "私を英雄にさせろ！"+ DisasterName +"！」▼\n"
                 + "                                 ");
         scan.nextLine();
+        System.out.println(""
+                + "\n"
+                + "制作スタッフ▼");
+        scan.nextLine();
+System.out.println(""
+                + "C0116127 佐藤瑠星\n"
+                + "C0116168 立野和紀▼");
+        scan.nextLine();
+System.out.println(""
+                + "C0116272 山口雄也\n"
+                + "C0116334 ザイダトゥル アクマル▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "・・・\n"
+                + "・・・・・▼");
+        System.out.println(""
+                + "・・・・・・・\n"
+                + "・・・・・・・・・・・？▼");
+        scan.nextLine();
+System.out.println(""
+                + "私の声が聞こえているか？\n"
+                + "聞こえていると信じて貴様に語ろう。▼");
+        scan.nextLine();
+System.out.println(""
+                + "事の顛末はあの戦乙女の予想を貴様が超えたことにより起こった。\n"
+                + "今回の災害騒動自体がなかったこととなった。▼");
+        scan.nextLine();
+System.out.println(""
+                + "しかし、私はこれで満足している。\n"
+                + "あのダンジョンで私が殺さなかった兵士が私のことを残してくれた。▼");
+        scan.nextLine();
+System.out.println(""
+                + "いや私ではなく私たち、そう"+ DisasterName +"のことを残してくれたのだ。\n"
+                + "いつの時代だって神話とは限られた人物が残すことで伝承されてきた。▼");
+        scan.nextLine();
+System.out.println(""
+                + "貴様と離れ存在を失ったせいであの時のような力はないが\n"
+                + "新しい存在として生まれ変わることができた。▼");
+        scan.nextLine();
+System.out.println(""
+                + "私たちは"+ DisasterName +"だ。\n"
+                + "それはずっと変わらないだろう。▼");
+        scan.nextLine();
+    }
+    public static void Senpai(){
+        System.out.println(""
+                + "エラー: '縺凪?縺凪?\n"
+                + "縺ｾ縺壹≧縺｡縺輔＝縲∝ｱ倶ｸ翫≠繧薙□縺代←窶ｦ窶ｦ辟ｼ縺?※陦後°\n"
+                + "縺ｪ縺?ｼ\n"
+                + "縺雁燕縺ｮ縺薙→縺悟･ｽ縺阪□縺｣縺溘ｓ縺?繧茨ｼ\n"
+                + "繝輔ぃ繝?ｼ?ｼ\n"
+                + "闖?㍽鄒守ｩゑｼ域э蜻ｳ荳肴??/n"
+                +"繝薙?繝ｫ?√ン繝ｼ繝ｫ?/n"
+                +"縺薙?霎ｺ縺ｫ繧｣縲∫ｾ主袖縺?/n"
+                +" 縺薙?霎ｺ縺ｫ繧｣縲∫ｾ主袖縺?/n"
+                +" 24豁ｳ縺ｧ縺?繧､繝ｳ繧ｿ繝薙Η繝ｼ蠕?蟄ｦ逕溘〒縺/n"
+                +" 縺ｧ窶ｦ窶ｦ蜃ｺ縺ｾ縺吶ｈ/n"
+                +" 邇矩％繧貞ｾ√￥/n"
+                +" 縺励ｇ縺?′縺ｭ縺医↑縺?謔溽ｩｺ)/n"
+                +" 縺ｯ縺｣縺阪ｊ繧上°繧薙□縺ｭ?/n"
+                +" 縺翫°縺ｮ縺励◆'は不正な文字です▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+System.out.println(""
+                + "\n"
+                + "▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "お、このルートに来たか。\n"
+                + "残念ながらこのルートでは奴は起きないよ。▼");
+        scan.nextLine();
+System.out.println(""
+                + "奴は貴様の意思によってのみ起こされる存在だからね。\n"
+                + "まあそんな不確定な存在をよくあのヴァルキリーは利用しようと思ったよな。▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "わざわざ使ったメサイアもポセイドンに寵愛されている海賊だしな。\n"
+                + "かつてゼウスの息子に立ち向かった海賊たちだからといって、無理あるよな…▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "まあ人間を蘇らせたらハデスにバレるから選択としては悪くないのかな。\n"
+                + "しかし海賊にこだわってポセイドンを敵に回さなくてもいいだろ…▼");
+        scan.nextLine();
+        System.out.println(""
+                + "スパモン教じゃあるまいし…\n"
+                + "で、そんな不確定な存在のあんたは何故ここへ来たんだい？▼");
+        scan.nextLine();
+
 
     }
 }

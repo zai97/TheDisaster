@@ -135,6 +135,8 @@ public class Story {
                 + "今回の武器はナイフか。\n"
                 + "さあナイフと回復アイテムどちらを選ぶ？▼");
         scan.nextLine();
+        
+
     }
     public static void senpai(){
         System.out.println("……▼");
@@ -164,7 +166,7 @@ public class Story {
                 + "おもちゃのナイフがある\n"
                 + "どうする？▼");
         scan.nextLine();
-        
+        TheDisaster.EquipWeapon(wepon_toyKnife);
         System.out.println(""
                 + "家を出た。\n"
                 + "なんだったんだあいつは…?▼");

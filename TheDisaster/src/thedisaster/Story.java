@@ -752,7 +752,61 @@ System.out.println(""
                 + "スパモン教じゃあるまいし…\n"
                 + "で、そんな不確定な存在のあんたは何故ここへ来たんだい？▼");
         scan.nextLine();
-
-
     }
+    public static void Senpai1(){
+        System.out.println(""
+                + "1か…。残念ながらあんたは俺には勝てない。\n"
+                + "体力なんか1145141919810はある。▼");
+        scan.nextLine();
+System.out.println(""
+                + "あの災害と一緒だったとしても俺を攻略するのは無理だろうな。\n"
+                + "じゃあな。▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "あなたは1919361ダメージを受けた。▼");
+        scan.nextLine();
+        }
+      public static void Senpai2(){
+          System.out.println(""
+                + "2か…。\n"
+                + "あの後世界は、とあるミームに汚染されたよ。▼");
+        scan.nextLine();
+System.out.println(""
+                + "そのミームは瞬く間に広がっていてね\n"
+                + "正直あの災害が出てこようが出てこなかろうが▼");
+        scan.nextLine();
+System.out.println(""
+                + "この世界は既に混沌に包まれていたってことさ。\n"
+                + "こんな答えでいいだろ？▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "じゃあな。\n"
+                + "あなたは1919361ダメージを受けた。▼");
+        scan.nextLine();
+      }
+      public static void Senpai3(){
+          System.out.println(""
+                + "3か…。\n"
+                + "俺は本名も性別も本当の顔も分からない正体不明な存在さ。▼");
+        scan.nextLine();
+System.out.println(""
+                + "まあ既に存在そのものもどうでもよくなっているかもしれないな。\n"
+                + "いわゆるミーム（文化的遺伝子）ってことさ。▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "既にこの世界の一部は俺によって汚染をされている。\n"
+                + "おっと、これ以上の回答はやめておくよ。▼");
+        scan.nextLine();
+
+System.out.println(""
+                + "じゃあな。\n"
+                + "あなたは1919361ダメージを受けた。▼");
+        scan.nextLine();
+
+
+
+      }
 }

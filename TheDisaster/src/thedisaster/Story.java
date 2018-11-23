@@ -135,7 +135,12 @@ public class Story {
                 + "今回の武器はナイフか。\n"
                 + "さあナイフと回復アイテムどちらを選ぶ？▼");
         scan.nextLine();
-        
+        System.out.println("1. " + wepon_knife.GetName() + ", 2. 回復アイテム");
+        if (TheDisaster.TwoChoices("1", "2").equals("1")) {
+                       TheDisaster.EquipWeapon(wepon_knife);
+        } else {
+            TheDisaster.Healer(heal_low);
+        }
 
     }
     public static void specialenpai(){
@@ -309,9 +314,14 @@ System.out.println(""
         scan.nextLine();
 System.out.println(""
                 + "愚問だったな。私達"+ DisasterName +"には敵などいない。\n"
-                + "先に進むぞ。▼");
+                + "武器かアイテムを拾って先に進むぞ。▼");
         scan.nextLine();
-
+System.out.println("1. " + wepon_theElderWand.GetName() + ", 2. 回復アイテム");
+        if (TheDisaster.TwoChoices("1", "2").equals("1")) {
+                       TheDisaster.EquipWeapon(wepon_theElderWand);
+        } else {
+            TheDisaster.Healer(heal_medium);
+        }
     }
     public static void choice2(){ 
         System.out.println(""
@@ -338,6 +348,12 @@ System.out.println(""
                 + "どちらを取るかを決めるのはお前だ。\n"
                 + ""+ DisasterName +"はどちらを選ぶ？▼");
         scan.nextLine();
+        System.out.println("1. " + wepon_FryingPanOfMagic.GetName() + ", 2. 回復アイテム");
+        if (TheDisaster.TwoChoices("1", "2").equals("1")) {
+                       TheDisaster.EquipWeapon(wepon_FryingPanOfMagic);
+        } else {
+            TheDisaster.Healer(heal_medium);
+        }
     }
     public static void choice3(){
      System.out.println(""
@@ -365,6 +381,12 @@ System.out.println(""
                 + ""+ DisasterName +"にとって大事だと思う方を選んで欲しい。\n"
                 + "どちらを取るかを決めるのはお前だ。▼");
         scan.nextLine();
+         System.out.println("1. " + wepon_muskets.GetName() + ", 2. 回復アイテム");
+        if (TheDisaster.TwoChoices("1", "2").equals("1")) {
+                       TheDisaster.EquipWeapon(wepon_muskets);
+        } else {
+            TheDisaster.Healer(heal_high);
+        }
     }
     public static void stage3(){
         System.out.println(""
@@ -458,7 +480,12 @@ System.out.println(""
                 + "行くぞ。\n"
                 + "ここからが本番だ。▼");
         scan.nextLine();
-
+         System.out.println("1. " + wepon_waterGun.GetName() + ", 2. 回復アイテム");
+        if (TheDisaster.TwoChoices("1", "2").equals("1")) {
+                       TheDisaster.EquipWeapon(wepon_waterGun);
+        } else {
+            TheDisaster.Healer(heal_veryHigh);
+        }
     }
     public static void security(){
         System.out.println(""

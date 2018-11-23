@@ -28,6 +28,10 @@ public class TheDisaster {
         Story.Tutorial(); //チュートリアル
         //BattleWithMessiah(); //制作中
         Story.TutorialBattleAfter(); //チュートリアル戦後
+        
+        Story.choice1(); //選択1
+        System.out.println("1. ナイフ, 2. 回復アイテム");
+        TwoChoices("1", "2");
     }
 
     private static void init() {

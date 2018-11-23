@@ -14,44 +14,63 @@ public class TheDisaster {
     static String DisasterName;
     static Character Disaster;
     static Grim grimgerde;
-    
+
     static List<Dungeon> dungeonList = new ArrayList<Dungeon>();
-    
+
     static Item heal_low;
     static Item heal_medium;
     static Item heal_high;
     static Item heal_veryHigh;
-    
+
     static Item wepon_knife;
     static Item wepon_toyKnife;
     static Item wepon_FryingPanOfMagic;
     static Item wepon_theElderWand;
     static Item wepon_muskets;
     static Item wepon_waterGun;
-    
+
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
         init(); //初期化
-        Story.Openning(); //オープニング
+        //Story.Openning(); //オープニング
         PutDisasterName(); //名前決定
         DamageOverTime(); //HP減少開始
-        Story.Tutorial(); //チュートリアル
+        //Story.Tutorial(); //チュートリアル
         //BattleWithMessiah(); //制作中
         Story.TutorialBattleAfter(); //チュートリアル戦後
-        
+
         Story.choice1(); //選択1
-        System.out.println("1. ナイフ, 2. 回復アイテム");
-        TwoChoices("1", "2");
+        System.out.println("1. " + wepon_knife.GetName() + ", 2. 回復アイテム");
+        if (TwoChoices("1", "2").equals("1")) {
+            System.out.println("装備しますか (y/n) (現在の装備 : " + Disaster.getWepon() + ")");
+
+            if (TwoChoices("y", "n").equals("y")) {
+                System.out.println(wepon_knife.GetName() + "を装備しました");
+                Disaster.SetWepon(wepon_knife.GetName());
+            } else {
+                System.out.println("");
+            }
+        } else {
+            System.out.println("回復しますか? (y/n) (現在のHP :" + Disaster.getHP() + ")");
+
+            if (TwoChoices("y", "n").equals("y")) {
+                System.out.println("回復しました");
+            } else {
+                System.out.println("回復しませんでした");
+            }
+            System.out.println("現在のHP : " + Disaster.getHP());
+        }
+        Story.Senpai();
     }
 
     private static void init() {
-        
+
         heal_low = new Item("小回復", 10);
         heal_medium = new Item("中回復", 20);
         heal_high = new Item("大回復", 30);
         heal_veryHigh = new Item("特大回復", 150);
-        
+
         grimgerde = new Grim("Grimgerde", 10000);
 
         wepon_knife = new Item("ナイフ", 10);
@@ -59,11 +78,11 @@ public class TheDisaster {
         wepon_FryingPanOfMagic = new Item("魔法のフライパン", 10);
         wepon_theElderWand = new Item("ニワトコの杖", 10);
         wepon_muskets = new Item("マスケット銃", 10);
-        wepon_waterGun= new Item("水鉄砲", 10);
-        
+        wepon_waterGun = new Item("水鉄砲", 10);
+
         dungeonList.add(new Dungeon("チュートリアル", 2, "", "", ""));
-        dungeonList.add(new Dungeon("選択1", 0, "", "", "ナイフ"));
-        dungeonList.add(new Dungeon("810", 0, "", "", "おもちゃのナイフ"));
+        dungeonList.add(new Dungeon("選択1", 0, "", "", wepon_knife.GetName()));
+        dungeonList.add(new Dungeon("810", 0, "", "", wepon_toyKnife.GetName()));
         dungeonList.add(new Dungeon("ステージ1", 2, "小", "", ""));
         dungeonList.add(new Dungeon("SP", 0, "", "中", "魔法のフライパン"));
         dungeonList.add(new Dungeon("ステージ2", 2, "中", "", "ニワトコの杖"));
@@ -94,9 +113,21 @@ public class TheDisaster {
         } while (roop);
         Disaster = new Character(DisasterName, 2000, "なし");
     }
-    
-    public void DisasterGetWepon(){
-    
+
+    /**
+     * 武器の装備(確認)を行うメソッド
+     *
+     * @param wepon 武器 
+     */
+    public static void EquipWeapon(Item wepon) {
+        System.out.println(wepon + "を装備しますか? (y/n) (現在の装備 : " + Disaster.getWepon() + ")");
+
+        if (TwoChoices("y", "n").equals("y")) {
+            System.out.println(wepon.GetName() + "を装備しました");
+            Disaster.SetWepon(wepon.GetName());
+        } else {
+            System.out.println(wepon.GetName() + "を装備しませんでした");
+        }
     }
 
     /**
@@ -107,7 +138,7 @@ public class TheDisaster {
      * @return 選択結果
      */
     public static String TwoChoices(String Choice1, String Choice2) {
-        boolean roop;
+        boolean roop;   
         do {
             roop = false;
             String input = scan.nextLine();
@@ -134,7 +165,7 @@ public class TheDisaster {
             @Override
             public void run() {
                 Disaster.SetHP(-1);
-                System.out.println("HP: " + Disaster.getHP());
+                //System.out.println("HP: " + Disaster.getHP());
 
                 if (Disaster.getHP() <= 0) {
                     timer.cancel();
@@ -148,7 +179,7 @@ public class TheDisaster {
     public static void DisasterDead() {
         //scan.nextline()の処理の途中でscan.close()が入ると、nextlineの処理終了後にcloseするようです。
         //scan.close();
-        
+
         System.out.println(DisasterName + "は死亡した");
         System.exit(0);
     }
